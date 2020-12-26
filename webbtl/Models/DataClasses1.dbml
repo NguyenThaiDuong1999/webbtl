@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="vntripvn" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-POEM65F\SQLEXPRESS;Initial Catalog=vntripvn;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="vntripvnConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.KhachSan" Member="KhachSans">
+    <Type Name="KhachSan">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Anh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TenKhachSan" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DiaChi" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Gia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDQuanHuyen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDTienNghi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LoaiChoO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IDTinh" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
